@@ -18,6 +18,7 @@ const projects = [
     category: "IT Business Analysis",
     description: "TELUS faced a 63% surge in wireless customer complaints (2024 CCTS Mid-Year Report) driven by billing errors, unauthorized contract changes, and lack of customer consent. Served as Assistant PM and Business Analyst coordinating Customer Support, IT, and Legal teams. Conducted SWOT, PESTEL, and Balanced Scorecard analysis; led AS-IS/TO-BE process mapping and elicited 10 business requirements and 20+ functional/non-functional requirements targeting a 30% complaint reduction and 95% billing accuracy. Evaluated 3 solution options using a weighted decision matrix and recommended a Proactive Confirmation & Assurance Program (consent-first model). Designed logical database model with ER diagrams, built Tableau and Power BI dashboards for complaint and billing KPIs, and deployed a working prototype via Vercel.",
     tools: "Tableau, Power BI, SQL, Microsoft Visio, Jira, Confluence, Agile, Vercel",
+    demo: "https://v0-telus-proactive-solution.vercel.app/",
     image: "/images/telus.webp",
   },
   {
@@ -79,6 +80,17 @@ const Work = () => {
                       data-cursor="disable"
                     >
                       View Github &rarr;
+                    </a>
+                  )}
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline text-purple-400 hover:text-purple-300 text-sm inline-flex items-center gap-1"
+                      data-cursor="disable"
+                    >
+                      Demo Prototype &rarr;
                     </a>
                   )}
                   {project.tableau && (
