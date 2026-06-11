@@ -4,6 +4,7 @@ import "./App.css";
 const CharacterModel = lazy(() => import("./components/Character"));
 const MainContainer = lazy(() => import("./components/MainContainer"));
 import { LoadingProvider } from "./context/LoadingProvider";
+import Loading3D from "./components/Loading3D";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <LoadingProvider>
         <Suspense>
           <MainContainer>
-            <Suspense>
+            <Suspense fallback={<Loading3D />}>
               <CharacterModel />
             </Suspense>
           </MainContainer>

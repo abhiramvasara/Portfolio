@@ -1,6 +1,5 @@
 import { lazy, PropsWithChildren, Suspense, useEffect, useState } from "react";
 import About from "./About";
-import Career from "./Career";
 import Contact from "./Contact";
 import Cursor from "./Cursor";
 import Landing from "./Landing";
@@ -8,6 +7,7 @@ import Navbar from "./Navbar";
 import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
+import Career from "./Career";
 import setSplitText from "./utils/splitText";
 
 const TechStack = lazy(() => import("./TechStack"));
@@ -41,10 +41,10 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <Landing>{!isDesktopView && children}</Landing>
             <About />
             <WhatIDo />
-            <Career />
             <Work />
+            <Career />
             {isDesktopView && (
-              <Suspense fallback={<div>Loading....</div>}>
+              <Suspense fallback={<div style={{ textAlign: 'center', color: '#adacac', fontSize: '12px', letterSpacing: '2px', padding: '40px 0', fontFamily: 'Geist, sans-serif', textTransform: 'uppercase' }}>Loading Tech Stack...</div>}>
                 <TechStack />
               </Suspense>
             )}

@@ -1,0 +1,50 @@
+.character-loading-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  background: radial-gradient(circle at center, rgba(196, 129, 255, 0.05) 0%, transparent 70%);
+  z-index: 0;
+}
+
+.glowing-spinner-orb {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #fb8dff, #5400ff);
+  box-shadow: 0 0 30px rgba(84, 0, 255, 0.4), inset -5px -5px 15px rgba(0, 0, 0, 0.4);
+  animation: orbPulse 2s ease-in-out infinite alternate;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.loading-3d-text {
+  font-family: "Geist", sans-serif;
+  font-size: 12px;
+  color: #adacac;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  animation: textFlicker 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes orbPulse {
+  0% {
+    transform: scale(0.9) rotate(0deg);
+    filter: blur(1px) drop-shadow(0 0 10px rgba(84, 0, 255, 0.4));
+  }
+  100% {
+    transform: scale(1.1) rotate(360deg);
+    filter: blur(2px) drop-shadow(0 0 30px rgba(251, 141, 255, 0.6));
+  }
+}
+
+@keyframes textFlicker {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}

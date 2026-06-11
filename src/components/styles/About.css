@@ -24,10 +24,16 @@
 }
 
 .about-me p {
-  font-size: 33px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  color: #adacac;
+}
+.about-me p strong {
+  color: #ffffff;
   font-weight: 600;
-  line-height: 36px;
-  letter-spacing: 1px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -43,6 +49,12 @@
   }
   .about-section {
     opacity: 1;
+  }
+  .about-me p {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 450;
+    color: #e5e7eb;
   }
 }
 @media only screen and (min-width: 1025px) {
@@ -61,6 +73,9 @@
   .about-me p {
     font-size: 1.9vw;
     line-height: 2.3vw;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1.5vw;
   }
 }
 @media only screen and (min-width: 1950px) {

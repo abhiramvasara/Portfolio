@@ -13,12 +13,11 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
+  "/images/sql.webp",
   "/images/mysql.webp",
+  "/images/tableau.webp",
+  "/images/powerbi.webp",
+  "/images/excel.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
 ];
@@ -130,9 +129,10 @@ const TechStack = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY || document.documentElement.scrollTop;
-      const threshold = document
-        .getElementById("work")!
-        .getBoundingClientRect().top;
+      const contactElem = document.getElementById("contact");
+      const threshold = contactElem
+        ? contactElem.getBoundingClientRect().top
+        : 500;
       setIsActive(scrollY > threshold);
     };
     document.querySelectorAll(".header a").forEach((elem) => {

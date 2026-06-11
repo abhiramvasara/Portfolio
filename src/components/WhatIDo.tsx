@@ -7,6 +7,7 @@ const WhatIDo = () => {
   const setRef = (el: HTMLDivElement | null, index: number) => {
     containerRef.current[index] = el;
   };
+  
   useEffect(() => {
     if (ScrollTrigger.isTouch) {
       containerRef.current.forEach((container) => {
@@ -24,6 +25,7 @@ const WhatIDo = () => {
       });
     };
   }, []);
+
   return (
     <div className="whatIDO">
       <div className="what-box">
@@ -58,6 +60,8 @@ const WhatIDo = () => {
               />
             </svg>
           </div>
+          
+          {/* Panel 1: Data Analytics & BI */}
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 0)}
@@ -87,28 +91,28 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>ANALYZE & BI</h3>
+              <h4>Data Analytics</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I specialize in advanced SQL querying, data cleaning and transformation, cohort analysis, and relational schema design. I build interactive Tableau and Power BI dashboards that turn raw data into clear, executive-ready insights people can actually act on.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">MySQL</div>
+                <div className="what-tags">Tableau</div>
+                <div className="what-tags">Power BI</div>
+                <div className="what-tags">Microsoft Excel</div>
+                <div className="what-tags">TablePlus</div>
+                <div className="what-tags">Relational Databases</div>
+                <div className="what-tags">ER Diagrams</div>
+                <div className="what-tags">Data Normalization</div>
               </div>
               <div className="what-arrow"></div>
             </div>
           </div>
+
+          {/* Panel 2: IT Business Analysis */}
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 1)}
@@ -128,22 +132,22 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>BUSINESS ANALYSIS</h3>
+              <h4>Solution Architecture</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I translate business needs into technical requirements — gathering requirements, mapping AS-IS and TO-BE processes, and designing solutions that bridge the gap between stakeholders and data teams.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Requirements Elicitation</div>
+                <div className="what-tags">Microsoft Visio</div>
+                <div className="what-tags">Jira</div>
+                <div className="what-tags">Confluence</div>
+                <div className="what-tags">SWOT / PESTEL</div>
+                <div className="what-tags">Balanced Scorecard</div>
+                <div className="what-tags">User Stories</div>
+                <div className="what-tags">Agile / Scrum</div>
+                <div className="what-tags">SDLC Methods</div>
               </div>
               <div className="what-arrow"></div>
             </div>
