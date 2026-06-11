@@ -1,0 +1,21 @@
+Launching browser...
+Navigating to live site...
+[CONSOLE ERROR] Failed to load resource: the server responded with a status of 404 ()
+Sec 1: H2 chars opacity: [], H3 chars opacity: []
+Sec 2: H2 chars opacity: [], H3 chars opacity: []
+Sec 3: H2 chars opacity: [0, 0, 0, 0, 0], H3 chars opacity: [0.1167, 0.0911, 0.07, 0.0528, 0.039]
+Sec 4: H2 chars opacity: [0, 0, 0, 0, 0], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 5: H2 chars opacity: [0.0001, 0, 0, 0, 0], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 6: H2 chars opacity: [0.9988, 0.9976, 0.9957, 0.9928, 0.9886], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 7: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 8: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 9: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 10: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 11: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 12: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 13: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 14: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Sec 15: H2 chars opacity: [1, 1, 1, 1, 1], H3 chars opacity: [1, 1, 1, 1, 1]
+Taking screenshot...
+Screenshot saved.
+Done.

@@ -322,6 +322,18 @@
     height: 100px;
     bottom: -10px;
   }
+  .landing-info {
+    bottom: 24px;
+    background: rgba(11, 8, 12, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 16px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 85%;
+    max-width: 420px;
+  }
 }
 @media screen and (max-width: 768px) {
   .character-model {
