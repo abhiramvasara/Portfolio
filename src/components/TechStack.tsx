@@ -20,6 +20,7 @@ const imageUrls = [
   "/images/excel.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
+  "/images/python.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(import.meta.env.BASE_URL + url.slice(1)));
 

@@ -16,7 +16,7 @@ const Landing = ({ children }: PropsWithChildren) => {
           </div>
           <div className="landing-info">
             <h3>
-              A Professional Data Analyst & IT Business Analyst — turning raw data into decisions with SQL, Tableau & Power BI.
+              A Professional Data Analyst & IT Business Analyst — turning raw data into decisions with Python, SQL, Tableau & Power BI.
             </h3>
           </div>
         </div>

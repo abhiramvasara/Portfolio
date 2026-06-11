@@ -98,6 +98,7 @@ const WhatIDo = () => {
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">Python</div>
                 <div className="what-tags">SQL</div>
                 <div className="what-tags">MySQL</div>
                 <div className="what-tags">Tableau</div>
