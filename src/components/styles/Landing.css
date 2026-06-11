@@ -313,10 +313,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .landing-intro {
+    top: 10%;
+  }
   .character-model {
-    height: 45vh;
-    max-height: 380px;
-    bottom: 0;
+    height: 40vh;
+    max-height: 350px;
+    bottom: auto;
+    top: 24%;
   }
   .character-model::after {
     height: 100px;
@@ -337,13 +341,17 @@
 }
 @media screen and (max-width: 768px) {
   .character-model {
-    height: 40vh;
+    height: 38vh;
     max-height: 300px;
+    bottom: auto;
+    top: 26%;
   }
 }
 @media screen and (max-width: 375px) {
   .character-model {
     height: 35vh;
-    max-height: 250px;
+    max-height: 240px;
+    bottom: auto;
+    top: 28%;
   }
 }
