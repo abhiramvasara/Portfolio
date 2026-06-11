@@ -29,7 +29,7 @@ const projects = [
     tools: "SQL, MySQL, Tableau",
     link: "https://github.com/abhiramvasara/ai-jobs-market-analysis",
     tableau: "https://public.tableau.com/views/AIJobsMarketAnalysis2024-2025/AIJobsMarketAnalysis2024-2025",
-    image: "/images/ai_jobs.webp",
+    image: "/images/ai_jobs.png",
   },
   {
     num: "04",
